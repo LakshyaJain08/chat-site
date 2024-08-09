@@ -23,12 +23,14 @@ body, html {
 .chat-area {
   flex: 1;
   display: flex;
+  background-color: #f0f0f0;
   flex-direction: column;
   position: relative; 
 }
 
 .reg-no{
   display:flex;
+  background-color:white;
   justify-content:center;
   padding:10px;
   height:40px;
@@ -78,39 +80,31 @@ body, html {
 }
 
 .message-time-blue{
-  font-size:0.8rem;
-  position:absolute;
-  right:3%;
-  bottom:65px;
+  display:flex;
+  justify-content:flex-end;
 }
-
 
 .input-area {
   display: flex;
-  padding: 10px;
+  padding:10px;
   background-color: #ffffff;
-  border: 1px sloid ;
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
+  border: 0px solid white;
+  border-radius: 10px 10px 0px 0 ;
 }
 
 #message-input {
-  flex: 1;
-  padding: 10px;
-  border: 0px solid #ddd;
-  border-radius: 10px;
+  flex: 1; 
+  border: 0px solid white;
   margin-right: 10px;
 }
 
 #send-button {
   cursor: pointer;
   background-color:#ffffff;
-  padding:0;
-  border: none;
-  background: none;
+  border-color: white;
   outline:none;
 }
-
+ 
 
 @media (max-width: 768px) {
   .sidebar {
